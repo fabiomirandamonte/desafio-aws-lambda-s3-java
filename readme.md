@@ -10,7 +10,7 @@ Tudo isso rodando de forma 100% automatizada e sem precisar gerenciar servidores
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 
-* **Java 17**: A linguagem utilizada para escrever o manipulador de eventos da Lambda.
+* **Java 21**: A linguagem utilizada para escrever o manipulador de eventos da Lambda.
 * **Apache Maven**: Responsável pelo gerenciamento de dependências e build do pacote executável (`.jar`).
 * **AWS CloudShell**: O terminal direto do navegador da AWS usado para compilar o código sem complicação local.
 * **Amazon S3**: Nosso armazenamento de objetos e gatilho inicial do fluxo.
@@ -40,7 +40,7 @@ Todo o processo foi feito direto no ecossistema da AWS! Dá uma olhada em como a
   * `AmazonS3ReadOnlyAccess` (para conseguir ler os arquivos que chegam no S3).
 
 ### 4️⃣ Criando e Subindo a Lambda Function
-* No serviço **AWS Lambda**, criei uma nova função do zero usando a runtime do **Java 17** e associando a *Role* que criei no IAM.
+* No serviço **AWS Lambda**, criei uma nova função do zero usando a runtime do **Java 21** e associando a *Role* que criei no IAM.
 * Atualizei o código enviando o arquivo `.jar` gerado na compilação.
 * Ajustei o **Handler** nas *Runtime settings* para apontar exatamente para o caminho da classe Java:  
   `com.dio.lambda.S3EventHandler::handleRequest`
