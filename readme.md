@@ -61,7 +61,8 @@ Todo o processo foi feito direto no ecossistema da AWS! Dá uma olhada em como a
 * `images/02-iam-role.png`: Permissões da Role no IAM.
 * `images/03-lambda-trigger.png`: Diagrama da Lambda conectada ao S3.
 * `images/04-cloudwatch-logs.png`: Logs de execução confirmando a automação rodando!
-
+* `images/05-cloudwatch-logs2.png`: Logs de execução confirmando a automação rodando!
+* `images/06-Diagrama-Arquitetura.png`: Diagrama de Arquitetura de Solução / Nuvem.
 ---
 
 💡 *Projeto desenvolvido durante o bootcamp da Digital Innovation One (DIO).*
